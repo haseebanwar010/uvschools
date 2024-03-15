@@ -1,0 +1,109 @@
+.card {
+    margin-bottom: 20px;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: 0;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+.card .card-title {
+    position: relative;
+    font-weight: 500;
+}
+.card-title {
+    margin-bottom: .75rem;
+}
+.message-box .message-widget {
+    position: relative;
+}
+.message-box .message-widget a {
+    border-bottom: 1px solid #e9ecef;
+    display: block;
+    text-decoration: none;
+    padding: 9px 15px;
+}
+.message-box .message-widget a:hover {
+    background: #e3e3e3;
+}
+.message-box .message-widget a:last-child {
+    border-bottom: 0;
+}
+
+.message-box .message-widget a .user-img {
+    width: 45px;
+    position: relative;
+    display: inline-block;
+    margin: 0 10px 15px 0;
+}
+.message-box .message-widget a div, html body .navbar-dark .mailbox .message-center a div {
+    white-space: normal;
+}
+.message-box .message-widget a .user-img img {
+    width: 100%;
+}
+.message-box .message-widget a .user-img .profile-status {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    left: 33px;
+    position: absolute;
+    top: -1px;
+    width: 10px;
+}
+.message-box .message-widget a .mail-contnet {
+    display: inline-block;
+    width: 70%;
+    vertical-align: middle;
+}
+.message-box .message-widget a .mail-contnet .mail-desc, .message-box .message-widget a .mail-contnet .time {
+    font-size: 12px;
+    display: block;
+    margin: 1px 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #212529;
+    white-space: nowrap;
+}
+.message-box .message-widget a .mail-contnet .mail-desc, .message-box .message-widget a .mail-contnet .time {
+    font-size: 12px;
+    display: block;
+    margin: 1px 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #212529;
+    white-space: nowrap;
+}
+.message-box .message-widget a .user-img .online {
+    background: #00c292;
+}
+.message-box .message-widget a .user-img .online {
+    background: #00c292;
+}
+
+/*new css for comments added by sheraz*/
+.black_comments{
+    background-color: #FCFBFA;
+    margin-left: 30%;
+    width: 70%;
+    border-radius: 2%;
+    padding: 2%;
+    margin-top: 2%
+
+}
+.black_comments1{
+    background-color: #FDFCFF;
+    margin-left: 0.5%;
+    width: 70%;
+    border-radius: 2%;
+}

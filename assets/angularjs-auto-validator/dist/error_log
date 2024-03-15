@@ -1,0 +1,321 @@
+[25-Feb-2019 11:28:19 UTC] PHP Parse error:  syntax error, unexpected ''<div id="result_card_containe' (T_ENCAPSED_AND_WHITESPACE) in /home/yyy6iwsw96p4/public_html/sandbox/application/helpers/common_helper.php on line 1038
+[02-Jul-2019 11:45:35 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/yyy6iwsw96p4/public_html/sandbox/application/helpers/common_helper.php on line 110
+[28-Oct-2020 06:58:38 UTC] PHP Fatal error:  Class 'Email_modal' not found in /home/yyy6iwsw96p4/public_html/system/core/Loader.php on line 304
+[28-Dec-2020 11:13:07 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/yyy6iwsw96p4/public_html/application/models/study_model.php on line 225
+[28-Dec-2020 13:13:08 Africa/Tripoli] PHP Parse error:  syntax error, unexpected '}' in /home/yyy6iwsw96p4/public_html/application/models/study_model.php on line 225
+[28-Dec-2020 11:13:13 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/yyy6iwsw96p4/public_html/application/models/study_model.php on line 225
+[28-Dec-2020 11:13:18 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/yyy6iwsw96p4/public_html/application/models/study_model.php on line 225
+[29-Dec-2020 12:59:28 Africa/Cairo] PHP Parse error:  syntax error, unexpected 'IN' (T_STRING), expecting ',' or ')' in /home/yyy6iwsw96p4/public_html/application/models/study_model.php on line 294
+[30-Dec-2020 19:42:12 Africa/Tripoli] PHP Parse error:  syntax error, unexpected '$subject_code' (T_VARIABLE), expecting ',' or ')' in /home/yyy6iwsw96p4/public_html/application/models/study_model.php on line 304
+[31-Dec-2020 13:08:29 Africa/Tripoli] PHP Parse error:  syntax error, unexpected ''$subject_code'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /home/yyy6iwsw96p4/public_html/application/models/study_model.php on line 408
+[31-Dec-2020 13:08:48 Africa/Tripoli] PHP Parse error:  syntax error, unexpected '$subject_code' (T_VARIABLE), expecting ',' or ')' in /home/yyy6iwsw96p4/public_html/application/models/study_model.php on line 408
+[31-Dec-2020 13:08:57 Africa/Tripoli] PHP Parse error:  syntax error, unexpected '$subject_code' (T_VARIABLE), expecting ',' or ')' in /home/yyy6iwsw96p4/public_html/application/models/study_model.php on line 408
+[07-Jan-2021 11:35:52 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php:26
+Stack trace:
+#0 /home/yyy6iwsw96p4/public_html/application/controllers/homepage.php(11): Admin_model->dbQuery('SELECT logo, na...')
+#1 /home/yyy6iwsw96p4/public_html/system/core/CodeIgniter.php(334): Homepage->index()
+#2 /home/yyy6iwsw96p4/public_html/index.php(188): require_once('/home/yyy6iwsw9...')
+#3 /home/yyy6iwsw96p4/public_html/assets/angularjs-auto-validator/dist/jcs-auto-validate.min.php(5): require_once('/home/yyy6iwsw9...')
+#4 {main}
+  thrown in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php on line 26
+[07-Jan-2021 09:38:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function result() on array in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php:28
+Stack trace:
+#0 /home/yyy6iwsw96p4/public_html/application/controllers/homepage.php(11): Admin_model->dbQuery('SELECT logo, na...')
+#1 /home/yyy6iwsw96p4/public_html/system/core/CodeIgniter.php(334): Homepage->index()
+#2 /home/yyy6iwsw96p4/public_html/index.php(188): require_once('/home/yyy6iwsw9...')
+#3 /home/yyy6iwsw96p4/public_html/assets/angularjs-auto-validator/dist/jcs-auto-validate.min.php(5): require_once('/home/yyy6iwsw9...')
+#4 {main}
+  thrown in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php on line 28
+[07-Jan-2021 09:38:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function result() on array in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php:28
+Stack trace:
+#0 /home/yyy6iwsw96p4/public_html/application/controllers/homepage.php(11): Admin_model->dbQuery('SELECT logo, na...')
+#1 /home/yyy6iwsw96p4/public_html/system/core/CodeIgniter.php(334): Homepage->index()
+#2 /home/yyy6iwsw96p4/public_html/index.php(188): require_once('/home/yyy6iwsw9...')
+#3 /home/yyy6iwsw96p4/public_html/assets/angularjs-auto-validator/dist/jcs-auto-validate.min.php(5): require_once('/home/yyy6iwsw9...')
+#4 {main}
+  thrown in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php on line 28
+[07-Jan-2021 09:38:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function result() on array in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php:28
+Stack trace:
+#0 /home/yyy6iwsw96p4/public_html/application/controllers/homepage.php(11): Admin_model->dbQuery('SELECT logo, na...')
+#1 /home/yyy6iwsw96p4/public_html/system/core/CodeIgniter.php(334): Homepage->index()
+#2 /home/yyy6iwsw96p4/public_html/index.php(188): require_once('/home/yyy6iwsw9...')
+#3 /home/yyy6iwsw96p4/public_html/assets/angularjs-auto-validator/dist/jcs-auto-validate.min.php(5): require_once('/home/yyy6iwsw9...')
+#4 {main}
+  thrown in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php on line 28
+[07-Jan-2021 09:39:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function result() on array in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php:28
+Stack trace:
+#0 /home/yyy6iwsw96p4/public_html/application/controllers/homepage.php(11): Admin_model->dbQuery('SELECT logo, na...')
+#1 /home/yyy6iwsw96p4/public_html/system/core/CodeIgniter.php(334): Homepage->index()
+#2 /home/yyy6iwsw96p4/public_html/index.php(188): require_once('/home/yyy6iwsw9...')
+#3 /home/yyy6iwsw96p4/public_html/assets/angularjs-auto-validator/dist/jcs-auto-validate.min.php(5): require_once('/home/yyy6iwsw9...')
+#4 {main}
+  thrown in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php on line 28
+[07-Jan-2021 09:39:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function result() on array in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php:28
+Stack trace:
+#0 /home/yyy6iwsw96p4/public_html/application/controllers/homepage.php(11): Admin_model->dbQuery('SELECT logo, na...')
+#1 /home/yyy6iwsw96p4/public_html/system/core/CodeIgniter.php(334): Homepage->index()
+#2 /home/yyy6iwsw96p4/public_html/index.php(188): require_once('/home/yyy6iwsw9...')
+#3 /home/yyy6iwsw96p4/public_html/assets/angularjs-auto-validator/dist/jcs-auto-validate.min.php(5): require_once('/home/yyy6iwsw9...')
+#4 {main}
+  thrown in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php on line 28
+[07-Jan-2021 09:39:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function result() on array in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php:28
+Stack trace:
+#0 /home/yyy6iwsw96p4/public_html/application/controllers/homepage.php(11): Admin_model->dbQuery('SELECT logo, na...')
+#1 /home/yyy6iwsw96p4/public_html/system/core/CodeIgniter.php(334): Homepage->index()
+#2 /home/yyy6iwsw96p4/public_html/index.php(188): require_once('/home/yyy6iwsw9...')
+#3 /home/yyy6iwsw96p4/public_html/assets/angularjs-auto-validator/dist/jcs-auto-validate.min.php(5): require_once('/home/yyy6iwsw9...')
+#4 {main}
+  thrown in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php on line 28
+[07-Jan-2021 09:39:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function result() on array in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php:28
+Stack trace:
+#0 /home/yyy6iwsw96p4/public_html/application/controllers/homepage.php(11): Admin_model->dbQuery('SELECT logo, na...')
+#1 /home/yyy6iwsw96p4/public_html/system/core/CodeIgniter.php(334): Homepage->index()
+#2 /home/yyy6iwsw96p4/public_html/index.php(188): require_once('/home/yyy6iwsw9...')
+#3 /home/yyy6iwsw96p4/public_html/assets/angularjs-auto-validator/dist/jcs-auto-validate.min.php(5): require_once('/home/yyy6iwsw9...')
+#4 {main}
+  thrown in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php on line 28
+[07-Jan-2021 09:39:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function result() on array in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php:28
+Stack trace:
+#0 /home/yyy6iwsw96p4/public_html/application/controllers/homepage.php(11): Admin_model->dbQuery('SELECT logo, na...')
+#1 /home/yyy6iwsw96p4/public_html/system/core/CodeIgniter.php(334): Homepage->index()
+#2 /home/yyy6iwsw96p4/public_html/index.php(188): require_once('/home/yyy6iwsw9...')
+#3 /home/yyy6iwsw96p4/public_html/assets/angularjs-auto-validator/dist/jcs-auto-validate.min.php(5): require_once('/home/yyy6iwsw9...')
+#4 {main}
+  thrown in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php on line 28
+[07-Jan-2021 09:39:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function result() on array in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php:28
+Stack trace:
+#0 /home/yyy6iwsw96p4/public_html/application/controllers/homepage.php(11): Admin_model->dbQuery('SELECT logo, na...')
+#1 /home/yyy6iwsw96p4/public_html/system/core/CodeIgniter.php(334): Homepage->index()
+#2 /home/yyy6iwsw96p4/public_html/index.php(188): require_once('/home/yyy6iwsw9...')
+#3 /home/yyy6iwsw96p4/public_html/assets/angularjs-auto-validator/dist/jcs-auto-validate.min.php(5): require_once('/home/yyy6iwsw9...')
+#4 {main}
+  thrown in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php on line 28
+[07-Jan-2021 09:39:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function result() on array in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php:28
+Stack trace:
+#0 /home/yyy6iwsw96p4/public_html/application/controllers/homepage.php(11): Admin_model->dbQuery('SELECT logo, na...')
+#1 /home/yyy6iwsw96p4/public_html/system/core/CodeIgniter.php(334): Homepage->index()
+#2 /home/yyy6iwsw96p4/public_html/index.php(188): require_once('/home/yyy6iwsw9...')
+#3 /home/yyy6iwsw96p4/public_html/assets/angularjs-auto-validator/dist/jcs-auto-validate.min.php(5): require_once('/home/yyy6iwsw9...')
+#4 {main}
+  thrown in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php on line 28
+[07-Jan-2021 09:39:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function result() on array in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php:30
+Stack trace:
+#0 /home/yyy6iwsw96p4/public_html/application/controllers/homepage.php(11): Admin_model->dbQuery('SELECT logo, na...')
+#1 /home/yyy6iwsw96p4/public_html/system/core/CodeIgniter.php(334): Homepage->index()
+#2 /home/yyy6iwsw96p4/public_html/index.php(188): require_once('/home/yyy6iwsw9...')
+#3 /home/yyy6iwsw96p4/public_html/assets/angularjs-auto-validator/dist/jcs-auto-validate.min.php(5): require_once('/home/yyy6iwsw9...')
+#4 {main}
+  thrown in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php on line 30
+[07-Jan-2021 09:39:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function result() on array in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php:30
+Stack trace:
+#0 /home/yyy6iwsw96p4/public_html/application/controllers/homepage.php(11): Admin_model->dbQuery('SELECT logo, na...')
+#1 /home/yyy6iwsw96p4/public_html/system/core/CodeIgniter.php(334): Homepage->index()
+#2 /home/yyy6iwsw96p4/public_html/index.php(188): require_once('/home/yyy6iwsw9...')
+#3 /home/yyy6iwsw96p4/public_html/assets/angularjs-auto-validator/dist/jcs-auto-validate.min.php(5): require_once('/home/yyy6iwsw9...')
+#4 {main}
+  thrown in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php on line 30
+[07-Jan-2021 09:39:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function result() on array in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php:30
+Stack trace:
+#0 /home/yyy6iwsw96p4/public_html/application/controllers/homepage.php(11): Admin_model->dbQuery('SELECT logo, na...')
+#1 /home/yyy6iwsw96p4/public_html/system/core/CodeIgniter.php(334): Homepage->index()
+#2 /home/yyy6iwsw96p4/public_html/index.php(188): require_once('/home/yyy6iwsw9...')
+#3 /home/yyy6iwsw96p4/public_html/assets/angularjs-auto-validator/dist/jcs-auto-validate.min.php(5): require_once('/home/yyy6iwsw9...')
+#4 {main}
+  thrown in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php on line 30
+[07-Jan-2021 09:39:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function result() on array in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php:30
+Stack trace:
+#0 /home/yyy6iwsw96p4/public_html/application/controllers/homepage.php(11): Admin_model->dbQuery('SELECT logo, na...')
+#1 /home/yyy6iwsw96p4/public_html/system/core/CodeIgniter.php(334): Homepage->index()
+#2 /home/yyy6iwsw96p4/public_html/index.php(188): require_once('/home/yyy6iwsw9...')
+#3 /home/yyy6iwsw96p4/public_html/assets/angularjs-auto-validator/dist/jcs-auto-validate.min.php(5): require_once('/home/yyy6iwsw9...')
+#4 {main}
+  thrown in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php on line 30
+[07-Jan-2021 09:40:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function result() on array in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php:30
+Stack trace:
+#0 /home/yyy6iwsw96p4/public_html/application/controllers/homepage.php(11): Admin_model->dbQuery('SELECT logo, na...')
+#1 /home/yyy6iwsw96p4/public_html/system/core/CodeIgniter.php(334): Homepage->index()
+#2 /home/yyy6iwsw96p4/public_html/index.php(188): require_once('/home/yyy6iwsw9...')
+#3 /home/yyy6iwsw96p4/public_html/assets/angularjs-auto-validator/dist/jcs-auto-validate.min.php(5): require_once('/home/yyy6iwsw9...')
+#4 {main}
+  thrown in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php on line 30
+[07-Jan-2021 09:40:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function result() on array in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php:30
+Stack trace:
+#0 /home/yyy6iwsw96p4/public_html/application/controllers/homepage.php(11): Admin_model->dbQuery('SELECT logo, na...')
+#1 /home/yyy6iwsw96p4/public_html/system/core/CodeIgniter.php(334): Homepage->index()
+#2 /home/yyy6iwsw96p4/public_html/index.php(188): require_once('/home/yyy6iwsw9...')
+#3 /home/yyy6iwsw96p4/public_html/assets/angularjs-auto-validator/dist/jcs-auto-validate.min.php(5): require_once('/home/yyy6iwsw9...')
+#4 {main}
+  thrown in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php on line 30
+[07-Jan-2021 09:40:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function result() on array in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php:30
+Stack trace:
+#0 /home/yyy6iwsw96p4/public_html/application/controllers/homepage.php(11): Admin_model->dbQuery('SELECT logo, na...')
+#1 /home/yyy6iwsw96p4/public_html/system/core/CodeIgniter.php(334): Homepage->index()
+#2 /home/yyy6iwsw96p4/public_html/index.php(188): require_once('/home/yyy6iwsw9...')
+#3 /home/yyy6iwsw96p4/public_html/assets/angularjs-auto-validator/dist/jcs-auto-validate.min.php(5): require_once('/home/yyy6iwsw9...')
+#4 {main}
+  thrown in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php on line 30
+[07-Jan-2021 09:40:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function result() on array in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php:30
+Stack trace:
+#0 /home/yyy6iwsw96p4/public_html/application/controllers/homepage.php(11): Admin_model->dbQuery('SELECT logo, na...')
+#1 /home/yyy6iwsw96p4/public_html/system/core/CodeIgniter.php(334): Homepage->index()
+#2 /home/yyy6iwsw96p4/public_html/index.php(188): require_once('/home/yyy6iwsw9...')
+#3 /home/yyy6iwsw96p4/public_html/assets/angularjs-auto-validator/dist/jcs-auto-validate.min.php(5): require_once('/home/yyy6iwsw9...')
+#4 {main}
+  thrown in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php on line 30
+[07-Jan-2021 09:40:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function result() on array in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php:30
+Stack trace:
+#0 /home/yyy6iwsw96p4/public_html/application/controllers/homepage.php(11): Admin_model->dbQuery('SELECT logo, na...')
+#1 /home/yyy6iwsw96p4/public_html/system/core/CodeIgniter.php(334): Homepage->index()
+#2 /home/yyy6iwsw96p4/public_html/index.php(188): require_once('/home/yyy6iwsw9...')
+#3 /home/yyy6iwsw96p4/public_html/assets/angularjs-auto-validator/dist/jcs-auto-validate.min.php(5): require_once('/home/yyy6iwsw9...')
+#4 {main}
+  thrown in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php on line 30
+[07-Jan-2021 09:40:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function result() on array in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php:30
+Stack trace:
+#0 /home/yyy6iwsw96p4/public_html/application/controllers/homepage.php(11): Admin_model->dbQuery('SELECT logo, na...')
+#1 /home/yyy6iwsw96p4/public_html/system/core/CodeIgniter.php(334): Homepage->index()
+#2 /home/yyy6iwsw96p4/public_html/index.php(188): require_once('/home/yyy6iwsw9...')
+#3 /home/yyy6iwsw96p4/public_html/assets/angularjs-auto-validator/dist/jcs-auto-validate.min.php(5): require_once('/home/yyy6iwsw9...')
+#4 {main}
+  thrown in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php on line 30
+[07-Jan-2021 09:40:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function result() on array in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php:30
+Stack trace:
+#0 /home/yyy6iwsw96p4/public_html/application/controllers/homepage.php(11): Admin_model->dbQuery('SELECT logo, na...')
+#1 /home/yyy6iwsw96p4/public_html/system/core/CodeIgniter.php(334): Homepage->index()
+#2 /home/yyy6iwsw96p4/public_html/index.php(188): require_once('/home/yyy6iwsw9...')
+#3 /home/yyy6iwsw96p4/public_html/assets/angularjs-auto-validator/dist/jcs-auto-validate.min.php(5): require_once('/home/yyy6iwsw9...')
+#4 {main}
+  thrown in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php on line 30
+[07-Jan-2021 09:40:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function result() on array in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php:30
+Stack trace:
+#0 /home/yyy6iwsw96p4/public_html/application/controllers/homepage.php(11): Admin_model->dbQuery('SELECT logo, na...')
+#1 /home/yyy6iwsw96p4/public_html/system/core/CodeIgniter.php(334): Homepage->index()
+#2 /home/yyy6iwsw96p4/public_html/index.php(188): require_once('/home/yyy6iwsw9...')
+#3 /home/yyy6iwsw96p4/public_html/assets/angularjs-auto-validator/dist/jcs-auto-validate.min.php(5): require_once('/home/yyy6iwsw9...')
+#4 {main}
+  thrown in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php on line 30
+[07-Jan-2021 09:40:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function result() on array in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php:30
+Stack trace:
+#0 /home/yyy6iwsw96p4/public_html/application/controllers/homepage.php(11): Admin_model->dbQuery('SELECT logo, na...')
+#1 /home/yyy6iwsw96p4/public_html/system/core/CodeIgniter.php(334): Homepage->index()
+#2 /home/yyy6iwsw96p4/public_html/index.php(188): require_once('/home/yyy6iwsw9...')
+#3 /home/yyy6iwsw96p4/public_html/assets/angularjs-auto-validator/dist/jcs-auto-validate.min.php(5): require_once('/home/yyy6iwsw9...')
+#4 {main}
+  thrown in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php on line 30
+[07-Jan-2021 09:40:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function result() on array in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php:30
+Stack trace:
+#0 /home/yyy6iwsw96p4/public_html/application/controllers/homepage.php(11): Admin_model->dbQuery('SELECT logo, na...')
+#1 /home/yyy6iwsw96p4/public_html/system/core/CodeIgniter.php(334): Homepage->index()
+#2 /home/yyy6iwsw96p4/public_html/index.php(188): require_once('/home/yyy6iwsw9...')
+#3 /home/yyy6iwsw96p4/public_html/assets/angularjs-auto-validator/dist/jcs-auto-validate.min.php(5): require_once('/home/yyy6iwsw9...')
+#4 {main}
+  thrown in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php on line 30
+[07-Jan-2021 09:40:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function result() on array in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php:30
+Stack trace:
+#0 /home/yyy6iwsw96p4/public_html/application/controllers/homepage.php(11): Admin_model->dbQuery('SELECT logo, na...')
+#1 /home/yyy6iwsw96p4/public_html/system/core/CodeIgniter.php(334): Homepage->index()
+#2 /home/yyy6iwsw96p4/public_html/index.php(188): require_once('/home/yyy6iwsw9...')
+#3 /home/yyy6iwsw96p4/public_html/assets/angularjs-auto-validator/dist/jcs-auto-validate.min.php(5): require_once('/home/yyy6iwsw9...')
+#4 {main}
+  thrown in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php on line 30
+[07-Jan-2021 09:40:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function result() on array in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php:30
+Stack trace:
+#0 /home/yyy6iwsw96p4/public_html/application/controllers/homepage.php(11): Admin_model->dbQuery('SELECT logo, na...')
+#1 /home/yyy6iwsw96p4/public_html/system/core/CodeIgniter.php(334): Homepage->index()
+#2 /home/yyy6iwsw96p4/public_html/index.php(188): require_once('/home/yyy6iwsw9...')
+#3 /home/yyy6iwsw96p4/public_html/assets/angularjs-auto-validator/dist/jcs-auto-validate.min.php(5): require_once('/home/yyy6iwsw9...')
+#4 {main}
+  thrown in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php on line 30
+[07-Jan-2021 09:41:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function result() on array in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php:30
+Stack trace:
+#0 /home/yyy6iwsw96p4/public_html/application/controllers/homepage.php(11): Admin_model->dbQuery('SELECT logo, na...')
+#1 /home/yyy6iwsw96p4/public_html/system/core/CodeIgniter.php(334): Homepage->index()
+#2 /home/yyy6iwsw96p4/public_html/index.php(188): require_once('/home/yyy6iwsw9...')
+#3 /home/yyy6iwsw96p4/public_html/assets/angularjs-auto-validator/dist/jcs-auto-validate.min.php(5): require_once('/home/yyy6iwsw9...')
+#4 {main}
+  thrown in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php on line 30
+[07-Jan-2021 09:41:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function result() on array in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php:30
+Stack trace:
+#0 /home/yyy6iwsw96p4/public_html/application/controllers/homepage.php(11): Admin_model->dbQuery('SELECT logo, na...')
+#1 /home/yyy6iwsw96p4/public_html/system/core/CodeIgniter.php(334): Homepage->index()
+#2 /home/yyy6iwsw96p4/public_html/index.php(188): require_once('/home/yyy6iwsw9...')
+#3 /home/yyy6iwsw96p4/public_html/assets/angularjs-auto-validator/dist/jcs-auto-validate.min.php(5): require_once('/home/yyy6iwsw9...')
+#4 {main}
+  thrown in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php on line 30
+[07-Jan-2021 09:41:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function result() on array in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php:30
+Stack trace:
+#0 /home/yyy6iwsw96p4/public_html/application/controllers/homepage.php(11): Admin_model->dbQuery('SELECT logo, na...')
+#1 /home/yyy6iwsw96p4/public_html/system/core/CodeIgniter.php(334): Homepage->index()
+#2 /home/yyy6iwsw96p4/public_html/index.php(188): require_once('/home/yyy6iwsw9...')
+#3 /home/yyy6iwsw96p4/public_html/assets/angularjs-auto-validator/dist/jcs-auto-validate.min.php(5): require_once('/home/yyy6iwsw9...')
+#4 {main}
+  thrown in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php on line 30
+[07-Jan-2021 09:41:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function result() on array in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php:30
+Stack trace:
+#0 /home/yyy6iwsw96p4/public_html/application/controllers/homepage.php(11): Admin_model->dbQuery('SELECT logo, na...')
+#1 /home/yyy6iwsw96p4/public_html/system/core/CodeIgniter.php(334): Homepage->index()
+#2 /home/yyy6iwsw96p4/public_html/index.php(188): require_once('/home/yyy6iwsw9...')
+#3 /home/yyy6iwsw96p4/public_html/assets/angularjs-auto-validator/dist/jcs-auto-validate.min.php(5): require_once('/home/yyy6iwsw9...')
+#4 {main}
+  thrown in /home/yyy6iwsw96p4/public_html/application/models/admin_model.php on line 30
+[07-Jan-2021 14:24:56 Africa/Cairo] PHP Parse error:  syntax error, unexpected end of file in /home/yyy6iwsw96p4/public_html/application/language/english/message_lang.php on line 701
+[27-Jan-2021 06:18:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/u847441908/domains/uvschools.com/public_html/system/database/drivers/mysqli/mysqli_driver.php:77
+Stack trace:
+#0 /home/u847441908/domains/uvschools.com/public_html/system/database/drivers/mysqli/mysqli_driver.php(92): CI_DB_mysqli_driver->db_connect()
+#1 /home/u847441908/domains/uvschools.com/public_html/system/database/DB_driver.php(116): CI_DB_mysqli_driver->db_pconnect()
+#2 /home/u847441908/domains/uvschools.com/public_html/system/database/DB.php(149): CI_DB_driver->initialize()
+#3 /home/u847441908/domains/uvschools.com/public_html/system/core/Loader.php(347): DB(Array, NULL)
+#4 /home/u847441908/domains/uvschools.com/public_html/system/core/Loader.php(1172): CI_Loader->database()
+#5 /home/u847441908/domains/uvschools.com/public_html/system/core/Loader.php(153): CI_Loader->_ci_autoloader()
+#6 /home/u847441908/domains/uvschools.com/public_html/system/core/Controller.php(52): CI_Loader->initialize()
+#7 /home/u847441908/domains/uvschools.com/ in /home/u847441908/domains/uvschools.com/public_html/system/database/drivers/mysqli/mysqli_driver.php on line 77
+[27-Jan-2021 06:18:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/u847441908/domains/uvschools.com/public_html/system/database/drivers/mysqli/mysqli_driver.php:77
+Stack trace:
+#0 /home/u847441908/domains/uvschools.com/public_html/system/database/drivers/mysqli/mysqli_driver.php(92): CI_DB_mysqli_driver->db_connect()
+#1 /home/u847441908/domains/uvschools.com/public_html/system/database/DB_driver.php(116): CI_DB_mysqli_driver->db_pconnect()
+#2 /home/u847441908/domains/uvschools.com/public_html/system/database/DB.php(149): CI_DB_driver->initialize()
+#3 /home/u847441908/domains/uvschools.com/public_html/system/core/Loader.php(347): DB(Array, NULL)
+#4 /home/u847441908/domains/uvschools.com/public_html/system/core/Loader.php(1172): CI_Loader->database()
+#5 /home/u847441908/domains/uvschools.com/public_html/system/core/Loader.php(153): CI_Loader->_ci_autoloader()
+#6 /home/u847441908/domains/uvschools.com/public_html/system/core/Controller.php(52): CI_Loader->initialize()
+#7 /home/u847441908/domains/uvschools.com/ in /home/u847441908/domains/uvschools.com/public_html/system/database/drivers/mysqli/mysqli_driver.php on line 77
+[27-Jan-2021 06:19:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/u847441908/domains/uvschools.com/public_html/system/database/drivers/mysqli/mysqli_driver.php:77
+Stack trace:
+#0 /home/u847441908/domains/uvschools.com/public_html/system/database/drivers/mysqli/mysqli_driver.php(92): CI_DB_mysqli_driver->db_connect()
+#1 /home/u847441908/domains/uvschools.com/public_html/system/database/DB_driver.php(116): CI_DB_mysqli_driver->db_pconnect()
+#2 /home/u847441908/domains/uvschools.com/public_html/system/database/DB.php(149): CI_DB_driver->initialize()
+#3 /home/u847441908/domains/uvschools.com/public_html/system/core/Loader.php(347): DB(Array, NULL)
+#4 /home/u847441908/domains/uvschools.com/public_html/system/core/Loader.php(1172): CI_Loader->database()
+#5 /home/u847441908/domains/uvschools.com/public_html/system/core/Loader.php(153): CI_Loader->_ci_autoloader()
+#6 /home/u847441908/domains/uvschools.com/public_html/system/core/Controller.php(52): CI_Loader->initialize()
+#7 /home/u847441908/domains/uvschools.com/ in /home/u847441908/domains/uvschools.com/public_html/system/database/drivers/mysqli/mysqli_driver.php on line 77
+[27-Jan-2021 06:24:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/u847441908/domains/uvschools.com/public_html/system/database/drivers/mysqli/mysqli_driver.php:77
+Stack trace:
+#0 /home/u847441908/domains/uvschools.com/public_html/system/database/drivers/mysqli/mysqli_driver.php(92): CI_DB_mysqli_driver->db_connect()
+#1 /home/u847441908/domains/uvschools.com/public_html/system/database/DB_driver.php(116): CI_DB_mysqli_driver->db_pconnect()
+#2 /home/u847441908/domains/uvschools.com/public_html/system/database/DB.php(149): CI_DB_driver->initialize()
+#3 /home/u847441908/domains/uvschools.com/public_html/system/core/Loader.php(347): DB(Array, NULL)
+#4 /home/u847441908/domains/uvschools.com/public_html/system/core/Loader.php(1172): CI_Loader->database()
+#5 /home/u847441908/domains/uvschools.com/public_html/system/core/Loader.php(153): CI_Loader->_ci_autoloader()
+#6 /home/u847441908/domains/uvschools.com/public_html/system/core/Controller.php(52): CI_Loader->initialize()
+#7 /home/u847441908/domains/uvschools.com/ in /home/u847441908/domains/uvschools.com/public_html/system/database/drivers/mysqli/mysqli_driver.php on line 77
+[27-Jan-2021 06:41:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/u847441908/domains/uvschools.com/public_html/system/database/drivers/mysqli/mysqli_driver.php:77
+Stack trace:
+#0 /home/u847441908/domains/uvschools.com/public_html/system/database/drivers/mysqli/mysqli_driver.php(92): CI_DB_mysqli_driver->db_connect()
+#1 /home/u847441908/domains/uvschools.com/public_html/system/database/DB_driver.php(116): CI_DB_mysqli_driver->db_pconnect()
+#2 /home/u847441908/domains/uvschools.com/public_html/system/database/DB.php(149): CI_DB_driver->initialize()
+#3 /home/u847441908/domains/uvschools.com/public_html/system/core/Loader.php(347): DB(Array, NULL)
+#4 /home/u847441908/domains/uvschools.com/public_html/system/core/Loader.php(1172): CI_Loader->database()
+#5 /home/u847441908/domains/uvschools.com/public_html/system/core/Loader.php(153): CI_Loader->_ci_autoloader()
+#6 /home/u847441908/domains/uvschools.com/public_html/system/core/Controller.php(52): CI_Loader->initialize()
+#7 /home/u847441908/domains/uvschools.com/ in /home/u847441908/domains/uvschools.com/public_html/system/database/drivers/mysqli/mysqli_driver.php on line 77
+[27-Jan-2021 06:47:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/u847441908/domains/uvschools.com/public_html/system/database/drivers/mysqli/mysqli_driver.php:77
+Stack trace:
+#0 /home/u847441908/domains/uvschools.com/public_html/system/database/drivers/mysqli/mysqli_driver.php(92): CI_DB_mysqli_driver->db_connect()
+#1 /home/u847441908/domains/uvschools.com/public_html/system/database/DB_driver.php(116): CI_DB_mysqli_driver->db_pconnect()
+#2 /home/u847441908/domains/uvschools.com/public_html/system/database/DB.php(149): CI_DB_driver->initialize()
+#3 /home/u847441908/domains/uvschools.com/public_html/system/core/Loader.php(347): DB(Array, NULL)
+#4 /home/u847441908/domains/uvschools.com/public_html/system/core/Loader.php(1172): CI_Loader->database()
+#5 /home/u847441908/domains/uvschools.com/public_html/system/core/Loader.php(153): CI_Loader->_ci_autoloader()
+#6 /home/u847441908/domains/uvschools.com/public_html/system/core/Controller.php(52): CI_Loader->initialize()
+#7 /home/u847441908/domains/uvschools.com/ in /home/u847441908/domains/uvschools.com/public_html/system/database/drivers/mysqli/mysqli_driver.php on line 77

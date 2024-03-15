@@ -1,0 +1,12 @@
+table {
+    border-collapse: collapse;
+}
+table, th, td{
+   border: 1px solid #e5e5e5;
+    font-size: 12px;
+    font-family: time new roman;
+}
+
+th,td{
+    text-align: center;
+}

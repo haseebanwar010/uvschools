@@ -1,0 +1,47 @@
+<!DOCTYPE html><html lang="en" <?php if ($this->session->userdata('site_lang') == "english" || !$this->session->userdata('site_lang')) { echo 'dir="ltr"'; } else { echo 'dir="rtl"'; } ?>>    <head>        <meta charset="utf-8">        <meta http-equiv="X-UA-Compatible" content="IE=edge">        <meta name="viewport" content="width=device-width, initial-scale=1">        
+	<meta name="description" content="">        
+	<meta name="author" content="">        
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/plugins/images/favicon.png">        
+	<title><?php echo $this->session->userdata("userdata")["sh_name"]; ?></title>       
+	<base href = "<?php echo base_url(); ?>" />        
+	<!-- Bootstrap Core CSS -->        
+	<?php if ($this->session->userdata('site_lang') == "english" || !$this->session->userdata('site_lang')) { ?> 
+	<link href="assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/plugins/bower_components/bootstrap-extension/css/bootstrap-extension.css" rel="stylesheet">            
+	<link href='assets/css/style.php?color=<?php echo substr($this->session->userdata('userdata')["theme_color"], 1) ?>' rel="stylesheet">            <!--<link href="assets/dist/css/style.min.css" rel="stylesheet">-->        <?php } else { ?>            
+	<link href="assets/plugins/bower_components/bootstrap-rtl-master/dist/css/bootstrap-rtl.min.css" rel="stylesheet">
+	<link href="assets/css/stylertl.css?v=<?= date("h.i.s") ?>" rel="stylesheet">        <?php } ?>        
+	<link rel="stylesheet" href="assets/plugins/bower_components/dropify/dist/css/dropify.min.css">        
+	<link href="assets/plugins/bower_components/datatables/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />        
+	<link href="https://cdn.datatables.net/buttons/1.2.2/css/buttons.dataTables.min.css" rel="stylesheet" type="text/css" />        
+	<!-- Menu CSS -->
+	<link href="assets/plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css" rel="stylesheet">        
+	<!-- toast CSS -->        
+	<link href="assets/plugins/bower_components/toast-master/css/jquery.toast.css" rel="stylesheet">        
+	<!-- morris CSS -->        
+	<link href="assets/plugins/bower_components/morrisjs/morris.css" rel="stylesheet">        
+	<!-- animation CSS -->        
+	<!-- <link href="assets/css/animate.css" rel="stylesheet"> -->        
+	<!-- calendar css -->        
+	<!-- <link href="assets/fullcalendar/css/bootstrap.min.css" rel="stylesheet"> -->        
+	<link href='assets/fullcalendar/css/fullcalendar.php?color=<?php echo substr($this->session->userdata('userdata')["theme_color"], 1) ?>' rel='stylesheet' />        <link href="assets/fullcalendar/css/bootstrapValidator.min.css" rel="stylesheet" />                <link href="assets/fullcalendar/css/bootstrap-colorpicker.min.css" rel="stylesheet" />        
+	<!-- Custom css  -->                  
+	<!-- <link href="assets/plugins/bower_components/bootstrap-datepicker/bootstrap-datepicker.min.css" rel="stylesheet" type="text/css" />    -->   <!--  <link href="assets/plugins/bower_components/custom-select/custom-select.css" rel="stylesheet" type="text/css" />  -->     
+	<!--   <link href="assets/plugins/bower_components/bootstrap-select/bootstrap-select.min.css" rel="stylesheet" />       --> 
+	<!--  <link href="assets/plugins/bower_components/bootstrap-tagsinput/dist/bootstrap-tagsinput.css" rel="stylesheet" />      -->   
+	<!-- <link href="assets/plugins/bower_components/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.css" rel="stylesheet" />  -->      
+	<!--  <link href="assets/plugins/bower_components/multiselect/css/multi-select.css" rel="stylesheet" type="text/css" />  -->       
+	<!-- Wizard CSS -->      
+	<!--  <link href="assets/plugins/bower_components/jquery-wizard-master/css/wizard.css" rel="stylesheet">  -->       
+	<!--alerts CSS -->        
+	<link href="assets/plugins/bower_components/sweetalert/sweetalert.css" rel="stylesheet" type="text/css">    
+	<!-- color CSS -->       
+	<!--  <link href="assets/css/colors/blue.css" id="theme" rel="stylesheet">  -->       
+	<?php if (!empty($this->session->userdata('userdata')["theme_color"])) { ?>            <link href="assets/css/colors/custom.php?color=<?php echo substr($this->session->userdata('userdata')["theme_color"], 1) ?>" id="theme" rel="stylesheet">        <?php } ?>        
+	<!-- <link href="assets/plugins/bower_components/icheck/skins/all.css" rel="stylesheet">         -->
+	<!-- <link href="assets/dist/css/pages/form-icheck.css" rel="stylesheet">         -->
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->        
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->        <!--[if lt IE 9]>        
+	    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>        
+	    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>        <![endif]-->        <!-- jQuery -->        
+	    <script src="assets/plugins/bower_components/jquery/dist/jquery.min.js"></script>        <!-- Date picker plugins css -->        <link href="assets/plugins/bower_components/bootstrap-datepicker/bootstrap-datepicker.min.css" rel="stylesheet" type="text/css" />        <link href="assets/plugins/bower_components/select2files/dist/css/select2.min.css" rel="stylesheet" />        <!-- wysihtml5 CSS -->        <link rel="stylesheet" href="assets/plugins/bower_components/html5-editor/bootstrap-wysihtml5.css" />        <!-- Dropzone css -->        <link href="assets/plugins/bower_components/dropzone-master/dist/dropzone.css" rel="stylesheet" type="text/css" />        <!-- Ribbon css -->        <link href="assets/dist/css/pages/ribbon-page.css" rel="stylesheet">                <style>            .custom-wrap {                display: inline-block;                width: 100%;                white-space: nowrap;                overflow: hidden !important;                text-overflow: ellipsis;            }            .custom_disable{                pointer-events: none;            }            div.mce-fullscreen{                z-index: 9999;            }            .hint{                border: 1px solid <?php echo '#'.substr($this->session->userdata('userdata')['theme_color'], 1); ?>;                 border-radius: 10px;                padding:20px;                margin-bottom: 15px;                background-color: white;                display: none;            }            .dropdownTags {                background: #e3e3e3;                border-radius: 5px;                margin: 5px;                font-size: 12px;                font-weight: 600;            }        </style>        <link href="assets/xcrud/plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet" />        <link href="assets/xcrud/plugins/timepicker/jquery-ui-timepicker-addon.css" rel="stylesheet"/>        <link href="assets/plugins/bower_components/spectrum/spectrum.css" rel="stylesheet">        <link href="assets/lightbox/dist/css/lightbox.css" rel="stylesheet">        <!-- UI-Cropper -->        <link href="assets/ui_cropper/compile/minified/ui-cropper.css?v=1" rel="stylesheet">        <!-- Start::Dashboard1 .CSS -->        <!-- <link href="assets/css/dashboard1.css" rel="stylesheet"> -->        <link href="assets/css/dashboard.css" rel="stylesheet">        <style>            body, button, a, input[type=button],input[type=submit], button[type=button], button[type=submit]{                font-size: <?php echo getUserFontSize()."px"; ?>            }            .select2-container {                border: 1px solid #e5e5e5;            }             .overlay-announcements {                height: 100%;                width: 0%;                position: fixed;                z-index: 1001;                top: 0;                left: 0;                background-color: rgb(0,0,0);                background-color: rgba(0,0,0, 0.6);                overflow-x: hidden;                transition: 0.5s;            }            .overlay-announcements-content {                position: relative;                top: 10%;                width: 100%;                text-align: center;                margin-top: 0;            }            .oveoverlay-announcementsrlay a {                padding: 8px;                text-decoration: none;                font-size: 36px;                color: #818181;                display: block;                transition: 0.3s;            }            .overlay-announcements a:hover, .overlay-announcements a:focus {                color:red;            }            .overlay-announcements .closebtn {                position: relative;                top: 20px;                right: 45px;                font-size: 60px;                color: <?php echo '#'.substr($this->session->userdata('userdata')['theme_color'], 1); ?>;      left:94%      }        </style>        <link href="assets/plugins/bower_components/Magnific-Popup-master/dist/magnific-popup.css" rel="stylesheet">        <style>            .mfp-fade{                z-index: 2000;            }        </style>    </head>    <body ng-app="myschool2" ng-cloak>        <!-- Preloader -->        <div class="preloader">            <div class="cssload-speeding-wheel"></div>        </div>

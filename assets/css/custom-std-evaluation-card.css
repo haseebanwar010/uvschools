@@ -1,0 +1,16 @@
+@media print {
+  #footer-table { page-break-after: always; }
+  .result_card_container { page-break-after: always; }
+}
+.subject-evaluation-table, .school-evaluation-table {
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 12px;
+}
+.school-evaluation-table, .school-evaluation-table th, .school-evaluation-table td {
+  border: 1px solid black;
+}
+.star{
+  width: 12px;
+  height: 12px;
+}

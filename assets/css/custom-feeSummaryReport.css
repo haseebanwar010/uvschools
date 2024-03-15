@@ -1,0 +1,20 @@
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+    margin-bottom: 6px;
+    font-family: calibri;
+}
+#rizwan_table{
+    font-family: calibri;
+    font-size: 10px;
+    max-width: 2480px;
+    width:100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+} 
+#rizwan_table tr > td,th {
+    border: 1px solid black;
+    text-align: center;
+    width: auto;
+    overflow: hidden;
+    word-wrap: break-word;
+}

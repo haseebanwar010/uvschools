@@ -1,0 +1,23 @@
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+    margin-bottom: 6px;
+    font-family: calibri;
+}
+table{
+    font-family: calibri;
+}
+#mjshttable{
+    font-family: calibri;
+    font-size: 10px;
+    max-width: 2480px;
+    width:100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+} 
+#mjshttable tr > td,th {
+    border: 1px solid black;
+    text-align: center;
+    width: auto;
+    overflow: hidden;
+    word-wrap: break-word;
+}
